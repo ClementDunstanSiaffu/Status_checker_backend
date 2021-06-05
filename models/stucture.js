@@ -1,6 +1,9 @@
 const mongoose = require('mongoose')
 
 const dataSchema = mongoose.Schema({
+    id:{
+        type:Number
+    },
     temperature:{
         type:Number
     },
@@ -8,7 +11,7 @@ const dataSchema = mongoose.Schema({
         type:Number
     },
     position:{
-        type:Number
+        type:String
     },
     gas:{
         type:Number
